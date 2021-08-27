@@ -25,20 +25,11 @@
 				padding-right: 20px !important;
 			}
 
-			.c-card_boxes_sp {
-				display: none;
-
-				.box {
-					padding-top: 60px;
-				}
-
-			}
-
 			@include is-sp{
 				padding-left: 10px !important;
 				padding-right: 10px !important;
 
-				.c-card_boxes_sp{
+				.c-card_boxes_pc{
 					display: block !important;
 
 					.box{
@@ -49,20 +40,29 @@
 
 						&:last-child{
 							padding-top: 0 !important;
-							padding-bottom: 57px;
 						}
-					}
-
-					.desc {
-						padding: 0;
 					}
 
 
 				}
 			}
-
 		}
 	}
+
+	img.pc {
+		@include is-sp {
+			display: none;
+		}
+	}
+
+		img.sp {
+			display: none;
+			@include is-sp {
+				display: block;
+			}
+		}
+
+	
 
 	&__title {
 		font-family: "ten-mincho";
@@ -110,7 +110,24 @@
 		padding: 40px 0 0 0;
 		letter-spacing: -1px;
 		@include font-line(26);
+
+		&.pc {
+			@include is-sp {
+				display: none;
+			}
+		}
+
+		&.sp {
+			display: none;
+			@include is-sp {
+				display: block;
+			}
+		}
 	}
+
+
+	
+	
 
 	.desc {
 		font-size: 18px;
@@ -119,5 +136,19 @@
 		text-align: left;
 
 		@include font-line(18);
+
+		&.pc {
+			@include is-sp {
+				display: none;
+			}
+		}
+
+		&.sp {
+			display: none;
+			@include is-sp {
+				display: block;
+			}
+		}
+
 	}
 }
