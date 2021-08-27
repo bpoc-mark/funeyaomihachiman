@@ -595,9 +595,11 @@ template{display:none}
 .sect_10{background:url("../image/sect_10/sect_10_bg.png");background-repeat:no-repeat;background-size:cover}
 .sect_10__store{text-align:center;padding:100px 0 60px 0}
 .sect_10__store .l-wrap{padding-left:0 !important;padding-right:0 !important}
+.sect_10__store .l-wrap .c-card_boxes_sp{display:none}
+.sect_10__store .l-wrap .c-card_boxes_sp .box{padding-top:60px}
 .sect_10__title{font-family:"ten-mincho";font-weight:400;color:#c60000;padding:0 0 30px 0;font-size:4.75rem}
 .sect_10__desc{font-family:'Noto Sans JP',sans-serif;font-weight:400;padding-bottom:80px;font-size:1.125rem;line-height:1.75}
-.sect_10 .title{font-size:26px;font-family:'Noto Sans JP',sans-serif;font-weight:700;text-align:center;color:#c60000;padding:40px 0 0 0;font-size:1.625rem}
+.sect_10 .title{font-size:26px;font-family:'Noto Sans JP',sans-serif;font-weight:700;text-align:center;color:#c60000;padding:40px 0 0 0;letter-spacing:-1px;font-size:1.625rem}
 .sect_10 .desc{font-size:18px;font-family:'Noto Sans JP',sans-serif;font-weight:400;text-align:left;font-size:1.125rem}
 .sect_11{text-align:center}
 .sect_11 .l-wrap{padding-left:0 !important;padding-right:0 !important}
@@ -1092,9 +1094,10 @@ template{display:none}
 .sect_10{padding-top:120px;margin-top:-120px}
 .sect_10__store{padding:90px 20px 10px}
 .sect_10__store .l-wrap{padding-left:10px !important;padding-right:10px !important}
-.sect_10__store .l-wrap .c-card_boxes_pc{display:block !important}
-.sect_10__store .l-wrap .c-card_boxes_pc .box:nth-child(2n+2){margin-left:0 !important;margin-bottom:50px}
-.sect_10__store .l-wrap .c-card_boxes_pc .box:last-child{padding-top:0 !important}
+.sect_10__store .l-wrap .c-card_boxes_sp{display:block !important}
+.sect_10__store .l-wrap .c-card_boxes_sp .box:nth-child(2n+2){margin-left:0 !important;margin-bottom:50px}
+.sect_10__store .l-wrap .c-card_boxes_sp .box:last-child{padding-top:0 !important;padding-bottom:57px}
+.sect_10__store .l-wrap .c-card_boxes_sp .desc{padding:0}
 .sect_10__title{font-size:60px;padding:0;font-size:3.75rem}
 .sect_10__desc{text-align:left;font-size:18px;padding:0 10px;font-size:1.125rem}
 .sect_11__faq{padding:75px 0 0 0}

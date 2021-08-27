@@ -25,11 +25,20 @@
 				padding-right: 20px !important;
 			}
 
+			.c-card_boxes_sp {
+				display: none;
+
+				.box {
+					padding-top: 60px;
+				}
+
+			}
+
 			@include is-sp{
 				padding-left: 10px !important;
 				padding-right: 10px !important;
 
-				.c-card_boxes_pc{
+				.c-card_boxes_sp{
 					display: block !important;
 
 					.box{
@@ -40,12 +49,18 @@
 
 						&:last-child{
 							padding-top: 0 !important;
+							padding-bottom: 57px;
 						}
+					}
+
+					.desc {
+						padding: 0;
 					}
 
 
 				}
 			}
+
 		}
 	}
 
@@ -93,7 +108,7 @@
 		text-align: center;
 		color: #c60000;
 		padding: 40px 0 0 0;
-
+		letter-spacing: -1px;
 		@include font-line(26);
 	}
 
