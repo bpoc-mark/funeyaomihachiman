@@ -18,8 +18,8 @@
 		border-left: 2px solid #FFCD34;
 		border-right: 2px solid #FFCD34;
 
-		.l-container{
-			.l-content{
+		.l-container {
+			.l-content {
 				padding: 10px 30px;
 			}
 		}
@@ -54,10 +54,10 @@
 		}
 	}
 
-	#sect_3{
-		@include is-sp(){
+	#sect_3 {
+		@include is-sp() {
 			padding-top: 220px;
-    		margin-top: -220px;
+			margin-top: -220px;
 		}
 	}
 
@@ -67,7 +67,7 @@
 			font-family: 'Noto Sans JP', sans-serif;
 			font-weight: 700;
 
-			@include is-sp{
+			@include is-sp {
 				@include font-line(20);
 				letter-spacing: -1px;
 			}
@@ -92,7 +92,7 @@
 		}
 
 		.c-pad {
-			padding: 40px 60px 40px 60px;
+			padding: 40px 0 40px 60px;
 
 			@include is-sp {
 				padding: 40px 0;
@@ -105,6 +105,13 @@
 			font-family: 'Noto Sans JP', sans-serif;
 			font-weight: 400;
 			padding-bottom: 7px;
+
+			span {
+				@include font-line(20);
+				font-weight: bold;
+				padding: 2px 4px;
+				color: red;
+			}
 		}
 
 		.star-content {
@@ -122,7 +129,32 @@
 
 		.food-1 {
 			width: 100px;
+
+			// @include is-sp {
+			// 	width: 212px;
+			// }
 		}
+
+		span {
+			small {
+				border: 1px solid #a2a2a2;
+				padding: 2px 5px;
+				border-radius: 5px;
+				font-weight: 700;
+			}
+		}
+
+		.inline-img {
+			display: flex;
+			justify-content: flex-start;
+			align-items: center;
+			column-gap: 5px;
+		}
+
+		// .inline-img:nth-of-type(2) {
+		// 	column-count: 3;
+		// 	display: block;
+		// }
 	}
 
 }
