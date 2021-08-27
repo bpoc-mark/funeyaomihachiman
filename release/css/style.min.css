@@ -797,11 +797,11 @@ template{display:none}
 .page__footer .p-footer .l-wrap{padding-left:20px !important;padding-right:20px !important}
 .sect_10__store .l-wrap{padding-left:20px !important;padding-right:20px !important}
 .sect_10__desc{padding-left:20px !important;padding-right:20px !important}
-.sect_10 .title br{display:none}
 .sect_11 .l-wrap{padding-left:30px !important;padding-right:30px !important}
 .sect_8 .l-wrap{padding-left:20px !important;padding-right:20px !important}
 .sect_1 .l-wrap{padding-left:20px !important;padding-right:20px !important}
 .sect_5 .l-wrap{padding-left:20px !important;padding-right:20px !important}
+}@media only screen and (max-width:1090px){.sect_10 .title br{display:none}
 }@media only screen and (max-width:951px){.c-card_boxes_pc .box{width:48%}
 .c-card_boxes_pc .box:not(:first-child){margin-left:0}
 .c-card_boxes_pc .box:nth-child(2n+2){margin-left:4%;margin-bottom:50px}
