@@ -595,13 +595,10 @@ template{display:none}
 .sect_10{background:url("../image/sect_10/sect_10_bg.png");background-repeat:no-repeat;background-size:cover}
 .sect_10__store{text-align:center;padding:100px 0 60px 0}
 .sect_10__store .l-wrap{padding-left:0 !important;padding-right:0 !important}
-.sect_10 img.sp{display:none}
 .sect_10__title{font-family:"ten-mincho";font-weight:400;color:#c60000;padding:0 0 30px 0;font-size:4.75rem}
 .sect_10__desc{font-family:'Noto Sans JP',sans-serif;font-weight:400;padding-bottom:80px;font-size:1.125rem;line-height:1.75}
 .sect_10 .title{font-size:26px;font-family:'Noto Sans JP',sans-serif;font-weight:700;text-align:center;color:#c60000;padding:40px 0 0 0;letter-spacing:-1px;font-size:1.625rem}
-.sect_10 .title.sp{display:none}
 .sect_10 .desc{font-size:18px;font-family:'Noto Sans JP',sans-serif;font-weight:400;text-align:left;font-size:1.125rem}
-.sect_10 .desc.sp{display:none}
 .sect_11{text-align:center}
 .sect_11 .l-wrap{padding-left:0 !important;padding-right:0 !important}
 .sect_11__faq{padding:115px 0 0 0}
@@ -800,6 +797,7 @@ template{display:none}
 .page__footer .p-footer .l-wrap{padding-left:20px !important;padding-right:20px !important}
 .sect_10__store .l-wrap{padding-left:20px !important;padding-right:20px !important}
 .sect_10__desc{padding-left:20px !important;padding-right:20px !important}
+.sect_10 .title br{display:none}
 .sect_11 .l-wrap{padding-left:30px !important;padding-right:30px !important}
 .sect_8 .l-wrap{padding-left:20px !important;padding-right:20px !important}
 .sect_1 .l-wrap{padding-left:20px !important;padding-right:20px !important}
@@ -1098,14 +1096,8 @@ template{display:none}
 .sect_10__store .l-wrap .c-card_boxes_pc{display:block !important}
 .sect_10__store .l-wrap .c-card_boxes_pc .box:nth-child(2n+2){margin-left:0 !important;margin-bottom:50px}
 .sect_10__store .l-wrap .c-card_boxes_pc .box:last-child{padding-top:0 !important}
-.sect_10 img.pc{display:none}
-.sect_10 img.sp{display:block}
 .sect_10__title{font-size:60px;padding:0;font-size:3.75rem}
 .sect_10__desc{text-align:left;font-size:18px;padding:0 10px;font-size:1.125rem}
-.sect_10 .title.pc{display:none}
-.sect_10 .title.sp{display:block}
-.sect_10 .desc.pc{display:none}
-.sect_10 .desc.sp{display:block}
 .sect_11__faq{padding:75px 0 0 0}
 .sect_11__title{letter-spacing:10px;padding-bottom:60px}
 .sect_11__content{display:block;padding:0}
