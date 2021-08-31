@@ -204,8 +204,15 @@
 			font-weight: 700;
 			color: #c60000;
 			padding-bottom: 24px;
-
 			@include font-line(26);
+
+			br {
+				display: none;
+
+				@include is-max(480px) {
+					display: block;
+				}
+			}
 		}
 
 		&__ans {
