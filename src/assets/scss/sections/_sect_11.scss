@@ -158,38 +158,17 @@
 				display: flex;
 				background: #c60000;
 				color: #fff;
-				width: 86%;
+				width: 100%;
 				padding: 14px 0;
 				justify-content: center;
 				align-items: center;
-				margin-left: 40px;
 				font-family: 'Noto Sans JP';
-
-				@include is-max(860px) {
-					padding: 14px 10px;
-				}
-
-				@include is-sp {
-					width: 100%;
-					padding: 14px 0;
-					margin-left: 0;
-				}
-
+				font-family: 700;
+				@include font-line(16);
+				
 				.insta_img {
-					width: 8%;
+					width: 10%;
 					padding-right: 10px;
-
-					@include is-max(1045px) {
-						width: 10%;
-					}
-
-					@include is-max(860px) {
-						width: 14%;
-					}
-
-					@include is-sp {
-						width: 10%;
-					}
 
 				}
 			}
