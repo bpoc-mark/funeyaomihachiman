@@ -6,11 +6,12 @@
             <img class="sect_1__img-map" src="<?php echo get_template_directory_uri(); ?>/release/image/sect_1/map.png"
                 alt="">
             <div class="l-content sect_1__description">
-                <p class="c-heading--01 c-heading--white"> JR草津駅から徒歩4分、<br class="br-pc"> <br class="br-sp">
-                    魚介は産地直送や、<br class="br-sp">毎日市場に買付け。<br class="br-pc"> <br class="br-sp">
-                    新鮮魚介居酒屋。<br class="br-pc"> <br class="br-sp">
-                    47都道府県の日本酒 <br class="br-sp">
-                    取り揃えています。
+                <p class="c-heading--01 c-heading--white">
+                JR近江八幡駅徒歩5分。<br>
+                毎日買い付けをし、<br>
+                産地直送で仕入れる新鮮魚介！<br>
+                北海道から沖縄まで47種類の<br>
+                日本酒を取り揃えています。<br>
                 </p>
             </div>
             <div class="l-container sect_1__center-col-1">

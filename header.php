@@ -30,7 +30,15 @@
 
     <main>
         <div class="page__header">
-            <div class="page__top isHome">
+            <?php 
+                $post_7 = get_post(7); 
+                $title = $post_7->the_post_thumbnail;
+                $imgurl = null;
+                if(has_post_thumbnail($title)){
+                    $imgurl = wp_get_attachment_url( get_post_thumbnail_id($title));
+                }
+            ?>
+            <div class="page__top isHome" style="background: url('<?php echo $imgurl; ?>') !important; background-size: cover !important;background-position: center center;background-repeat: no-repeat;">
                 <div class="page__wrapper">
                     <div class="l-wrap">
                         <div class="page__info">
@@ -57,11 +65,11 @@
                             </a>
                             <a class="item_01" href="https://www.instagram.com/funeya_kusatsu/" target="_blank">
                                 <div class="item_icn">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/icon_ig.png" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/icon_bag.png" alt="">
                                 </div>
                                 <div class="item_txt">
                                     <p>
-                                        Instagram
+                                    お持ち帰り
                                     </p>
                                 </div>
                             </a>

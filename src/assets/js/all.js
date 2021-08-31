@@ -20,10 +20,28 @@ $( window ).on( 'load', function() {
     var w = $( window ).width();
     if( w <= 450 ) {
         $( 'meta[name=viewport]' ).attr( 'content', 'width=480' );
-    } else {
+    }
+    if( w <= 750 ) {
+        $('.isHome').css({
+            "background-position" : "52% 0%",
+        })
+    }
+    else {
         $( 'meta[name=viewport]' ).attr( 'content', 'width=device-width' );
     }
 }); 
+
+// 画面幅が375pxより小さい場合、viewportを再設定
+// $( window ).on( 'load', function() {
+//     var w = $( window ).width();
+//     if( w <= 750 ) {
+//         $('.isHome').css({
+//             "background-position" : "52% 0%",
+//         })
+//     }
+//     else {
+//     }
+// }); 
 
 $(function () {
     $('a[href*=#]:not([href=#])').click(function () {
