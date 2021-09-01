@@ -32,7 +32,7 @@
         <div class="l-content l-insta__offcl-inst">
             <a class="off-text off-text-primary" href="https://www.instagram.com/funeya_kusatsu/" target="_blank"> 
             <img class="insta-pic" src="<?php echo get_template_directory_uri(); ?>/release/image/sect_4/insta-logo-white.png" alt="">
-                &nbsp;official Instagram : funeya_kusatsu</a>
+                &nbsp;official Instagram : funeya_omihachiman</a>
         </div>
     </div>
 </section>
