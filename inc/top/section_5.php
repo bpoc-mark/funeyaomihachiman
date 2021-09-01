@@ -110,7 +110,7 @@
                 </div>
                 <div class="pic-1">
                     <img class="srvc_1-s"
-                        src="<?php echo get_template_directory_uri(); ?>/release/image/sect_5/image_8.png" alt="">
+                        src="<?php echo get_template_directory_uri(); ?>/release/image/sect_5/image_12.png" alt="">
                     <p class="c-text">店舗の前の<br>
                         交差点を左折</p>
                 </div>
@@ -118,7 +118,7 @@
                     src="<?php echo get_template_directory_uri(); ?>/release/image/sect_5/arrow_right.png" alt="">
                 <div class="pic-1">
                     <img class="srvc_1-s"
-                        src=" <?php echo get_template_directory_uri(); ?>/release/image/sect_5/image_9.png" alt="">
+                        src=" <?php echo get_template_directory_uri(); ?>/release/image/sect_5/image_13.png" alt="">
                     <p class="c-text">左折後すぐのNPCパーキ<br>ングが近くておすすめで<br>す。</p>
                 </div>
             </div>
