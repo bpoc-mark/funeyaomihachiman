@@ -4,7 +4,7 @@
             <div class="l-wrap">
                 <div class="pads">
                     <div class="c-contact">
-                        <a class="c-contact__item-1" href="tel:077-569-2019">
+                        <a class="c-contact__item-1" href="tel:050-5451-5154">
                             <div class="tel">
                                 <img class="phone_icon" src="<?php echo get_template_directory_uri(); ?>/release/image/sect_7/phone_icon.svg" alt="">
                                 <p class="phone_num">050-5451-5154</p>

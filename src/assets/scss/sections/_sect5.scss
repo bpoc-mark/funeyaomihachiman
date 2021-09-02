@@ -188,8 +188,13 @@
 				padding: 10px 0;
 				height: 100px;
 
+				@include is-max(829px) {
+					@include font-line(14);
+				}
+
 				@include is-sp {
 					height: 145px;
+					@include font-line(16);
 				}
 
 				@include is-max(366px) {
@@ -287,6 +292,10 @@
 				color: #c60000;
 				margin-bottom: 70px;
 				padding-right: 20px;
+
+				@include is-max(481px) {
+					@include font-line(26);
+				}
 			}
 
 			.pic-1 {
@@ -301,6 +310,14 @@
 				font-weight: 400;
 				padding: 10px 0;
 				height: 100px;
+
+				@include is-max(829px) {
+					@include font-line(14);
+				}
+
+				@include is-sp {
+					@include font-line(16);
+				}
 			}
 
 			.arrow-1 {
