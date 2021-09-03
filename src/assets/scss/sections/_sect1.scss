@@ -52,6 +52,14 @@
 		font-family: 'A1明朝';
 		text-align: center;
 
+		br[sm] {
+			display: none;
+
+			@include is-max(508px) {
+				display: block;
+			}
+		}
+
 		@include is-sp{
 			@include font-line(34);
 			letter-spacing: -2px;

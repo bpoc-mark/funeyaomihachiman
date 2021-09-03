@@ -56,9 +56,11 @@
 
 			span {
 				color: #ffe600;
+				font-weight: 800;
 
 				@include is-sp {
 					color: #fff;
+					font-weight: 400;
 				}
 			}
 		}
