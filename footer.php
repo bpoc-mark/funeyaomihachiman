@@ -28,6 +28,22 @@
                     <div class="p-footer__inner--bottom">
                         <a class="f-card" href="">
                             <div class="bg-img">
+                                <img src="<?php echo get_template_directory_uri();?>/release/image/footer/footer_new_img_1.png" alt="">
+                                <div class="overlay"></div>
+                                <div class="overlay_logo">
+                                    <img src="<?php echo get_template_directory_uri();?>/release/image/footer/overlay_logo.png" alt="">
+                                </div>
+                            </div>
+                            <div class="card_txt">
+                                <p>
+                                    刺身と魚飯<br>
+                                    FUNEYA<br>
+                                    草津駅前店
+                                </p>
+                            </div>
+                        </a>
+                        <a class="f-card" href="">
+                            <div class="bg-img">
                                 <img src="<?php echo get_template_directory_uri();?>/release/image/footer/footer_img_1.png" alt="">
                                 <div class="overlay"></div>
                                 <div class="overlay_logo">
@@ -39,22 +55,6 @@
                                     刺身と魚飯<br>
                                     FUNEYA<br>
                                     野洲店
-                                </p>
-                            </div>
-                        </a>
-                        <a class="f-card" href="">
-                            <div class="bg-img">
-                                <img src="<?php echo get_template_directory_uri();?>/release/image/footer/footer_img_2.png" alt="">
-                                <div class="overlay"></div>
-                                <div class="overlay_logo">
-                                    <img src="<?php echo get_template_directory_uri();?>/release/image/footer/overlay_logo.png" alt="">
-                                </div>
-                            </div>
-                            <div class="card_txt">
-                                <p>
-                                    刺身と魚飯<br>
-                                    FUNEYA<br>
-                                    近江八幡店
                                 </p>
                             </div>
                         </a>
