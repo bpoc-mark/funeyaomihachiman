@@ -1101,6 +1101,7 @@ template{display:none}
 .page__footer .p-footer__inner--top table tbody tr td br{display:block}
 .page__footer .p-footer__inner--bottom{margin-bottom:10px}
 .page__footer .p-footer__inner--bottom .f-card{width:100%;margin-bottom:10px}
+.page__footer .p-footer .footer_copryright{padding-bottom:60px}
 .page__top.isHome{height:780px !important}
 .page__wrapper .hero_cta{width:100%;top:unset;bottom:0}
 .page__wrapper .hero_cta__cont{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap}
@@ -1197,7 +1198,7 @@ template{display:none}
 .sect_5 .c_address__boxes .arrow{margin:0}
 .sect_5 .c_address__boxes .pic-1{width:47%}
 .sect_5 .c_address__boxes .c-text{height:145px;font-size:1rem}
-.sect_5 .c_address__boxes .arrow-1{position:absolute;left:2%;top:65%;width:3%}
+.sect_5 .c_address__boxes .arrow-1{position:absolute;left:1%;top:66%;width:3%}
 .sect_5 .c_address__boxes .arrow-2{position:absolute;right:48%;top:18%;width:3%}
 .sect_5 .c_address__boxes .arrow-3{position:absolute;bottom:32%;right:48%;width:3%;margin-bottom:0}
 .sect_5 .c_address__boxes2{-webkit-column-count:unset;-moz-column-count:unset;column-count:unset;display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;padding-left:30px;-webkit-column-gap:unset;-moz-column-gap:unset;column-gap:unset}
@@ -1205,15 +1206,19 @@ template{display:none}
 .sect_5 .c_address__boxes2 .arrow{margin:0}
 .sect_5 .c_address__boxes2 .pic-1{width:47%}
 .sect_5 .c_address__boxes2 .c-text{font-size:1rem}
-.sect_5 .c_address__boxes2 .arrow-1{position:absolute;left:2%;top:65%;width:3%}
+.sect_5 .c_address__boxes2 .arrow-1{position:absolute;left:1%;top:66%;width:3%}
 .sect_5 .c_address__boxes2 .arrow-2{position:absolute;right:48%;top:18%;width:3%}
 .sect_5 .c_address__boxes2 .arrow-3{position:absolute;bottom:32%;right:48%;width:3%;margin-bottom:0}
 }@media only screen and (max-width:581px){.nav__header .p-header__middle .l-navigation .p-navigation__link{width:calc(100% / 2)}
 .nav__header .p-header__middle .l-navigation .p-navigation__link:not(:last-child) a{border-right:unset}
 .sticky{height:150px}
 .sect_1{padding:50px 0 0 0}
+}@media only screen and (max-width:550px){.sect_5 .c_address__boxes .arrow-1{left:2% !important}
+.sect_5 .c_address__boxes2 .arrow-1{left:2% !important}
 }@media only screen and (max-width:508px){.sect_1 .c-heading--01 br[sm]{display:block}
 }@media only screen and (max-width:500px){.sect_5 .c_address__heading .c-heading-title{font-size:2.25rem}
+.sect_5 .c_address__boxes .arrow-1{top:66% !important}
+.sect_5 .c_address__boxes2 .arrow-1{top:66% !important}
 }@media only screen and (max-width:481px){.sect_5 .c_address__boxes2 .pic-1:nth-child(1) p{font-size:1.625rem}
 }@media only screen and (max-width:480px){.sect_11 .last_ques__title br{display:block}
 }@media only screen and (max-width:479px){.nav__header .p-header__middle .l-navigation .p-navigation__link{width:45%}
@@ -1222,9 +1227,11 @@ template{display:none}
 }@media only screen and (max-width:470px){.page__wrapper .hero_cta__cont .item_01:nth-of-type(1){width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
 .page__wrapper .hero_cta__cont .item_01:nth-of-type(2){width:50%}
 .page__wrapper .hero_cta__cont .item_01:nth-of-type(3){width:50%}
-}@media only screen and (max-width:400px){.sect_5 .c_address__boxes .arrow-1{top:60% !important}
+}@media only screen and (max-width:469px){.page__footer .p-footer .footer_copryright{padding-bottom:100px}
+}@media only screen and (max-width:400px){.sect_5 .c_address__boxes .arrow-1{top:74% !important}
 .sect_5 .c_address__boxes .arrow-2{top:14% !important}
 .sect_5 .c_address__boxes .arrow-3{top:60% !important}
+.sect_5 .c_address__boxes2 .arrow-1{top:74% !important}
 }@media only screen and (max-width:370px){.page__footer .p-footer__inner--top table tbody tr td{padding-left:0}
 }@media only screen and (max-width:366px){.sect_5 .c_address__boxes .c-text{height:170px}
 }@-webkit-keyframes loader-text{0%{-webkit-transform:rotate(0);transform:rotate(0)}
