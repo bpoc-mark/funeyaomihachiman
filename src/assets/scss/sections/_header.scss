@@ -357,6 +357,18 @@
                         color: #fff;
                         @include font-line(14);
                     }
+
+                    @include is-max(960px) {
+                        @include font-line(19);
+                    }
+
+                    @include is-max(931px) {
+                        @include font-line(21);
+                    }
+
+                    @include is-max(970px) {
+                        @include font-line(19);
+                    }
                 }
             }
         }
