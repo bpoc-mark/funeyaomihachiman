@@ -52,7 +52,7 @@
                     </div>
                     <div class="hero_cta" >
                         <div class="hero_cta__cont" id="hero_cta">
-                            <a class="item_01" href="https://www.tablecheck.com/shops/funeya-kusatsu/reserve" target="_blank">
+                            <a class="item_01" href="https://www.tablecheck.com/shops/funeya-omihachiman/reserve" target="_blank">
                                 <div class="item_icn">
                                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/icon_note.png" alt="">
                                 </div>

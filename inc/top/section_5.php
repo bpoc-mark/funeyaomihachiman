@@ -105,8 +105,8 @@
                 </div>
             </div>
             <div class="l-container c_address__boxes2">
-                <div class="pic-1">
-                    <p>駐車場のご案内</p>
+                <div class="pic-1 parking">
+                    <p class="parking_info">駐車場のご案内</p>
                 </div>
                 <div class="pic-1">
                     <img class="srvc_1-s"

@@ -8,13 +8,13 @@
     
             <div class="c-card_boxes_pc">
                 <div class="box">
-                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_10/sect_10_img_1.png" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_10/sect_10_img_1.jpeg" alt="">
                     <p class="title">カウンター 全4席</p>
                     <p class="desc">目の前で調理が見えるカウンター席。落ち着いた雰囲気でゆったりお食事をお楽しみ頂けます。</p>
                 </div>
 
                 <div class="box">
-                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_10/sect_10_img_2.png" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_10/sect_10_img_2.jpeg" alt="">
                     <p class="title">テーブル 全8卓</p>
                     <p class="desc">ご宴会はもちろん、ちょい飲み、接待など様々な食事シーンでご利用頂けます。</p>
                 </div>
