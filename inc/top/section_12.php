@@ -22,7 +22,7 @@
                                     お選びいただけます。</p>
                             </a>
                         </div>
-                        <a class="c-contact__item-3" href="https://lin.ee/Fw3N2ow" target="_blank">
+                        <a class="c-contact__item-3" href="https://line.me/R/ti/p/%40967gxnrl" target="_blank">
                             <div class="row-1">
                                 <div class="line-flex"> 
                                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_7/line_img.png" alt="">
