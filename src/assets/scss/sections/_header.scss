@@ -7,13 +7,13 @@
         position: relative;
         &.isHome{
             position: relative;
-            height: 700px !important;
+            height: 900px !important;
             // background: url("http://funeyakusatsu.test/wp-content/uploads/2021/06/top_img.png") !important;
             // background-size: cover !important;
             // background-position: center center;
             // background-repeat: no-repeat;
             @include is-sp {
-                height: 700px !important;
+                height: 780px !important;
                 // background-position: center center !important;
             }
         }
@@ -49,7 +49,7 @@
 
                         @include is-sp {
                             padding: 9px;
-                            width: 42%;
+                            width: 50%;
                         }  
 
                         @include is-max(470px) {
@@ -83,6 +83,7 @@
                     &:nth-of-type(2){
                         background-color: #6E0000;
                         padding: 9px;
+                        display: none;
 
                         @include is-sp {
                             width: 29%;
@@ -98,11 +99,12 @@
                         padding: 9px;
 
                         @include is-sp {
-                            width: 29%;
+                            width: 50%;
                         }
 
                         @include is-max(470px) {
-                            width: 50%;
+                            width: 100%;
+                            justify-content: center;
                         }  
                     }
 
@@ -163,14 +165,11 @@
             }
         }
         .info_txt{
-            padding-top: 450px;
-
-            @include is-max(825px) {
-                padding-top: 350px;
-            }
+            padding-top: 350px;
 
             @include is-sp {
-                padding-top: 400px;
+                padding-top: 300px;
+                padding-left: 40px;
             }
             h2{
                 @include font-line(54);

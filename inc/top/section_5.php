@@ -72,9 +72,6 @@
                 <img class="srvc_1" src="<?php echo get_template_directory_uri(); ?>/release/image/sect_5/image_7.png"
                     alt="">
 
-                <img class="srvc_1" src="<?php echo get_template_directory_uri(); ?>/release/image/sect_5/image_2.png"
-                    alt="">
-
             </div>
             <div class="l-container c_address__boxes">
                 <div class="pic-1">
