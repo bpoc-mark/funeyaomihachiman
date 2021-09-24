@@ -344,7 +344,9 @@
                 }
             }
             &__right{
-                width: 200px;
+                max-width: 200px;
+                margin-left: 20px;
+                white-space: nowrap;
                 @include is-sp {
                     display: none;
                 }
@@ -354,6 +356,7 @@
                     font-weight: 700;
                     color: #fff;
                     @include font-line(21);
+                    
 
                     span{
                         font-family: 'Yu Gothic', sans-serif;
