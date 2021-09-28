@@ -19,6 +19,13 @@
         }
     }
     &__wrapper{
+
+        .l-wrap {
+            @include is-sp {
+                padding-left: 40px;
+            }
+        }
+
         .hero_cta{
             width: 140px;
             position: absolute;
@@ -169,7 +176,6 @@
 
             @include is-sp {
                 padding-top: 300px;
-                padding-left: 40px;
             }
             h2{
                 @include font-line(54);
