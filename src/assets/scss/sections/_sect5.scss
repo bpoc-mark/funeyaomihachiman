@@ -82,6 +82,7 @@
 				right: 0;
 				display: none;
 				width: 240px;
+				height: auto;
 
 				@include is-max(894px) {
 					top: -325px;
@@ -119,6 +120,7 @@
 
 				img {
 					width: 100%;
+					height: 100%;
 				}
 			}
 		}
