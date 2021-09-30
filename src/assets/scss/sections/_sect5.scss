@@ -38,14 +38,13 @@
 		padding: 50px 0 0 0;
 
 		&__heading {
-
 			@include is-min(750px) {
 				width: calc(100% - 322px);
 			}
 
 			.c-heading-title {
 				@include font-line(38);
-				font-family: 'A1明朝';
+				font-family: "A1明朝";
 
 				@include is-sp {
 					letter-spacing: -3px;
@@ -57,7 +56,7 @@
 			}
 
 			.c-heading-primary {
-				color: #C60000;
+				color: #c60000;
 
 				@include is-sp {
 					padding-left: 30px;
@@ -82,6 +81,7 @@
 				top: -258px;
 				right: 0;
 				display: none;
+				width: 240px;
 
 				@include is-max(894px) {
 					top: -325px;
@@ -110,7 +110,6 @@
 		}
 
 		.lef-pic-sp {
-
 			top: -258px;
 			right: 0;
 			display: none;
@@ -134,17 +133,16 @@
 
 			p {
 				@include font-line(16);
-				font-family: 'Noto Sans JP', sans-serif;
+				font-family: "Noto Sans JP", sans-serif;
 				font-weight: 500;
-				color: #C60000;
+				color: #c60000;
 			}
 		}
 
 		&__col-2 {
-
 			p {
 				@include font-line(16);
-				font-family: 'Noto Sans JP', sans-serif;
+				font-family: "Noto Sans JP", sans-serif;
 				font-weight: 400;
 			}
 		}
@@ -192,7 +190,7 @@
 
 			.c-text {
 				@include font-line(16);
-				font-family: 'Noto Sans JP', sans-serif;
+				font-family: "Noto Sans JP", sans-serif;
 				font-weight: 400;
 				padding: 10px 0;
 				height: 100px;
@@ -303,11 +301,9 @@
 				}
 			}
 
-			
-
 			.pic-1:nth-child(1) p {
 				@include font-line(28);
-				font-family: 'Noto Sans JP', sans-serif;
+				font-family: "Noto Sans JP", sans-serif;
 				font-weight: 500;
 				color: #c60000;
 				margin-bottom: 70px;
@@ -315,7 +311,7 @@
 
 				@include is-sp {
 					padding-right: 0;
-					font-size: 2.0rem;
+					font-size: 2rem;
 					text-align: center;
 				}
 
@@ -342,7 +338,7 @@
 
 			.c-text {
 				@include font-line(16);
-				font-family: 'Noto Sans JP', sans-serif;
+				font-family: "Noto Sans JP", sans-serif;
 				font-weight: 400;
 				padding: 10px 0;
 				height: 100px;
@@ -405,13 +401,12 @@
 	}
 
 	table {
-
 		th {
 			display: flex;
 			justify-content: space-between;
 			width: 128px;
-			color: #C60000;
-			font-family: 'Noto Sans JP', sans-serif;
+			color: #c60000;
+			font-family: "Noto Sans JP", sans-serif;
 			font-weight: 600;
 			@include font-line(16);
 		}
@@ -419,9 +414,8 @@
 		td {
 			@include font-line(16);
 			padding-left: 20px;
-			font-family: 'Noto Sans JP', sans-serif;
+			font-family: "Noto Sans JP", sans-serif;
 			font-weight: 400;
 		}
-
 	}
 }
